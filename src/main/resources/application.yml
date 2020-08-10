@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  data:
+    redis:
+      database: 0
+      host: localhost
+      port: 6379
+    mongodb:
+      database: mooc
+      host: localhost
+      port: 27017
+      username: ppl
+      password: "123456"
+      #uri: mongodb://ppl:123456@localhost:27017/mooc
